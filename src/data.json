@@ -1,0 +1,52 @@
+{
+    "products": [
+      {
+        "_id": "1",
+        "image": "https://www.ikea.com/nl/en/images/products/sunneby-cord-set__0626518_PE692832_S5.JPG?f=xs",
+        "title": "SUNNEBY",
+        "price": 60
+      },
+      {
+        "_id": "2",
+        "image": "https://www.ikea.com/nl/en/images/products/vindkast-pendant-lamp-white__0805857_PE769703_S5.JPG?f=xs",
+        "title": "VINDKAST",
+        "price": 200
+      },
+      {
+        "_id": "3",
+        "image": "https://www.ikea.com/nl/en/images/products/karljan-chair__0714675_PE730182_S5.JPG?f=xs",
+        "title": "KARLJAN",
+        "price": 14.9
+      },
+      {
+        "_id": "4",
+        "image": "https://www.ikea.com/nl/en/images/products/fjaellberget-conference-chair-with-castors-white-stained-oak-veneer-gunnared-beige__0815078_PE772749_S5.JPG?f=xxs",
+        "title": "FJÄLLBERGET",
+        "price": 169
+      },
+      {
+        "_id": "5",
+        "image": "https://www.ikea.com/nl/en/images/products/omfang-vase-blue__0891443_PE782283_S5.JPG?f=xs",
+        "title": "OMFÅNG",
+        "price": 70
+      },
+      {
+        "_id": "6",
+        "image": "https://www.ikea.com/nl/en/images/products/kvistbro-storage-table-light-grey-green__0816804_PE773686_S5.JPG?f=xxs",
+        "title": "KVISTBRO",
+        "price": 295
+      },
+      {
+        "_id": "7",
+        "image": "https://www.ikea.com/nl/en/images/products/bullig-box__0913363_PE783469_S5.JPG?f=xxs",
+        "title": "BULLIG",
+        "price": 140
+      },
+      {
+        "_id": "8",
+        "image": "https://www.ikea.com/nl/en/images/products/laettsald-vase-carafe-set-of-2-penguin-black-grey__0891429_PE782282_S5.JPG?f=xxs",
+        "title": "LÄTTSÅLD",
+        "price": 90
+      }
+    ]
+  }

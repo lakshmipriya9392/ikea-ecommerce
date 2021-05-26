@@ -1,0 +1,130 @@
+.home{
+    margin : 50px 100px;
+
+}
+
+.home_topImage {
+    width : 1188px;
+    height : 670px;
+}
+
+.border_line {
+    border-top: 1px solid #dfdfdf;
+    width : 1188px;
+    margin : 50px 0 50px 0;
+}
+
+.home_middle {
+    height : 230px;
+    width : 1100px;
+    padding : 48px;
+    min-height : auto;
+    max-width: auto; 
+    background-color: #fbca0b;
+
+}
+
+.home_descriptionTitle {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    color : #000000;
+    margin: 10px 10px;
+}
+
+.home_paragraph {
+    font-size: 15px;
+    width : 655.344px;
+    height: 84px;
+    color : #000000;
+    padding-left : 10px;
+    margin-bottom: 30px;
+}
+.learnmore_button {
+    background-color: #000000;
+    color : #ffffff;
+    height : 40px;
+    width : 117px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.learnmore_button:active {
+    outline: none;
+}
+
+.home_cards {
+    display: flex;
+    padding: 0 4px;
+    height : 674px;
+    width : 1100px;
+    padding : 4px 0 24px 0;
+}
+
+.home_cardImage {
+    flex: content;
+    padding: 0 4px;
+    height : 382px;
+    width : 382px;
+    
+}
+
+.firstImage_description {
+    width : 322px;
+    height : 200px;
+    padding : 32px;
+    background-color: #5f9ea0;
+    line-height: 21px;
+}
+
+.firstImage_title {
+    font-size: 25px;
+    cursor : pointer;
+    font-weight: 700;
+    padding-bottom: 110px;
+}
+
+.firstImage_button {
+    background-color: #000000;
+    height : 56px;
+    width : 56px;
+    padding : 0 16px 0 16px;
+    border-radius: 50%;
+    color : #ffffff;
+}
+
+.secondImage_description {
+    width : 322px;
+    height : 200px;
+    padding : 32px;
+    background-color: #a73d24;
+    line-height: 21px;
+}
+.secondImage_button {
+    background-color: #ffffff;
+    height : 56px;
+    width : 56px;
+    padding : 0 16px 0 16px;
+    border-radius: 50%;
+    color : #000000;
+}
+.thirdImage_description {
+    width : 322px;
+    height : 200px;
+    padding : 32px;
+    background-color: #384872;
+    line-height: 21px;
+}
+
+.thirdImage_title {
+    font-size: 25px;
+    cursor : pointer;
+    font-weight: 700;
+    padding-bottom: 70px;
+    line-height: 40px;
+}
+
+.firstImage_title:hover, .thirdImage_title:hover {
+    text-decoration: underline;
+}
