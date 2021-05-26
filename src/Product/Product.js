@@ -1,13 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Product.css'
-// import data from '../data.json'
+import data from '../data.json'
 
 export default function Product({id, image, title, price, rating}) {
 
+const [product, setProduct] = useState(data.products);
 
-// const addToBasket = () => {
-    
-// }
+const [cartItems, setCartItems] = useState([])
+
+const addToBasket = () => {
+   let alreadyInCart = false;
+   cartItems.forEach(item => {
+    if(item._id === product._id){
+      item.count++;
+      alreadyInCart = true;
+    }
+  })
+  if(!alreadyInCart){
+    cartItems.push({...product, count : 1})
+  }
+  setCartItems({cartItems});
+  localStorage.setItem("cartItems", JSON.stringify(cartItems))
+}
 
     return (
         <div>
@@ -32,7 +46,7 @@ export default function Product({id, image, title, price, rating}) {
                 </div>
             </div>
                 
-            <button>Add to basket</button>
+            <button onClick = {addToBasket}>Add to basket</button>
             
         </div>
         </div>

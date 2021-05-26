@@ -1,0 +1,110 @@
+.login {
+    height: 644px;
+    width : 518.828px;
+    padding : 32px 80px, 32px, 80px;
+    min-height: 625px;
+    min-width: auto;
+    display: flex;
+    background-color: #0058a3;
+}
+
+.login_leftTitle {
+    color : #fff;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.64px;
+    line-height: 42px;
+    display: block;
+    width : 250px;
+    padding-left: 160px;
+    padding-top : 160px;
+}
+
+.login_para {
+    width : 256px;
+    height : 174px;
+    padding-top: 14px;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    color : #ffffff;
+    padding-left: 160px;
+}
+
+.yellow {
+    color : #fbd914;
+}
+.login__rightArrow {
+    color: #ffffff;
+    padding-left : 20px;
+}
+.login__logo{
+    padding-left: 160px;
+   color: #ffffff;
+   padding-top: 30px;
+}
+
+.login_form {
+    height : 400px;
+    width : 448px;
+    color : #484848;
+    margin-left: 250px;
+    margin-top : 40px;
+}
+
+.login_input {
+    height: 50px;
+    width : 448px;
+    
+    padding : 24px 0 0 0;
+    display: block;
+    cursor: text;
+    font-size: 16px;
+    line-height : 24px;
+    border: none;
+    border-bottom: 1px solid #929292;
+   
+}
+
+.inputLabel > a {
+  font-weight: bold;
+  color : #111111;
+}
+
+
+
+.continue_button {
+    height: 56px;
+    width : 448px;
+    padding :0 40px 0 40px;
+    background-color: #0058a3;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 25px;
+    color : #ffffff;
+    border: none;
+    margin-top: 50px;
+}
+.signup_button {
+    height: 56px;
+    width : 448px;
+    padding :0 40px 0 40px;
+    background-color: #dfdfdf;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 25px;
+    color : #000000;
+    border: none;
+    margin-top: 20px;
+}
+
+.formDown_para {
+    height : 192px;
+    width : 448px;
+    margin-left: 250px;
+    margin-top : 40px;
+}
+
+a {
+    color :#111111;
+}

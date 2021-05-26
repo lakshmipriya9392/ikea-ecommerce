@@ -5,6 +5,7 @@ import Home from './Home/Home';
 import Footer from './Footer/Footer';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Products from './products/products'
+import Login from './Login/Login';
 // import Cart from './Cart/Cart'
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
     <Router>
       <div className = "App">
         <Switch>
+        <Route path = "/login">
+            <Login />
+          </Route>
         {/* <Route path = "/checkout">
           <Header />
             <Cart />
@@ -29,6 +33,7 @@ function App() {
             <Home />
             <Footer />
           </Route>
+       
         </Switch>
       </div>
     </Router>
